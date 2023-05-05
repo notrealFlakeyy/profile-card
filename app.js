@@ -26,6 +26,7 @@ editButton.addEventListener("click", function () {
     document.getElementById("edit-occupation").value = occupationElement.innerHTML;
     profileCard.style.display = "none";
     editForm.style.display = "block";
+
 });
 
 cancelButton.addEventListener("click", function () {

@@ -39,6 +39,15 @@ body {
     cursor: pointer;
 }
 
+#modal-backdrop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
 #edit-form {
     display: flex;
     width: 500px;
@@ -47,6 +56,7 @@ body {
     padding: 1rem;
     border-radius: 8px;
     flex-direction: column;
+    background-color: #899878;
 }
 
 #edit-form>input {
